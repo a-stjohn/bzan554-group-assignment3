@@ -183,6 +183,7 @@ model.fit(
     callbacks=[tf.keras.callbacks.CSVLogger('FFNN_training.log')]
 )
 
+model.save('saved_models/best_FFNN')
 
 #####################################################
 # LSTM Models
